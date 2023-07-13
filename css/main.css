@@ -96,28 +96,29 @@ textarea {
    ========================================================================== */
 
 html {
-  background-color: #fff;
+  background-color: rgb(204, 243, 204);
   height: 100%;
   width: 100%;
+  font-family: 'Ysabeau Infant', sans-serif;
 }
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
   padding: 0 2em;
-  font-size: 1.25em;
+  font-size: 1.5em;
   height: 100%;
-  color: #fff;
+  color: black;
 }
 
 header,
 footer {
-  background-color: #222;
+  background-color: darkcyan;
   height: 80px;
   width: 100%;
 }
 
 main {
-  background-color: #ccc;
+  background-color: lightseagreen;
   height: 250px;
   width: 100%;
 }
@@ -142,10 +143,10 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #fff;
+    color: black;
     line-height: 1.5em;
-    font-size: 1.6em;
-    background-color: #f16059;
+    font-size: 0.75em;
+    background-color: rgb(87, 194, 194);
     width: 30%;
     height: 200px;
 }
